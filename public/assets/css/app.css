@@ -26,6 +26,17 @@ header .header-main_container .header-main_text {
   width: 400px;
   display: block;
   margin: 0 auto;
+  margin-top: 270px;
+  color: #c7c5c5;
+  height: 150px;
+  text-align: center;
+}
+header .header-main_container .header-main_text h4 {
+  margin-bottom: 45px;
+}
+header .header-main_container .header-main_text a {
+  background: #b4a7d6!important;
+  color: black;
 }
 header .header-shadow {
   width: 100%;
@@ -97,6 +108,10 @@ header nav .nav-wrapper .side-nav .register_button_mob {
   display: inline-block;
   margin: 0 auto;
   width: 90%;
+}
+#eventos a {
+  background: #b4a7d6!important;
+  color: black;
 }
 #programas {
   background-color: #f5f2f2;

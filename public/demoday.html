@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Centraal Academy</title>
+  <link rel="icon" href="assets/img/favicon_centraal.png" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<header id="demoDay-header">
+    <ul id="eventos-dropdown" class="dropdown-content">
+        <li class="drop-li"><a href="demoday.html">Demo Day</a></li>
+    </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">Centraal Academy</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html#programas">Programas</a></li>
+        <li><a href="#!" data-activates="eventos-dropdown" class="dropdown-button">Eventos<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="equipo.html">Equipo</a></li>
+        <li><a href="preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+        <li><a class="register_button" href="index.html#inscribete">Inscríbete!</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <!-- <li><a href="#eventos">Eventos</a></li> -->
+        <li><a id="programs_mobile" href="index.html#programas">Programas</a></li>
+        <li><a href="demoday.html">Demo Day</a></li>
+        <li><a href="equipo.html">Equipos</a></li>
+        <!-- <li><a href="#espacio">Espacio</a></li> -->
+        <li><a href="preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+        <li><a class="register_button_mob" href="index.html#inscribete">Inscríbete!</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <section id="programas">
+    <div class="container">
+      <div class="row programas-main_title">
+        <h1>¡Te invitamos al Demo Day de Centraal Academy!</h1>
+        <h4>Fecha : 13 de Septiembre</h4>
+        <h4>Lugar : Centraal Guadalajara</h4>
+        <h4>Hora : 6 p.m. - 10 p.m.</h4>
+      </br>
+        <div class="row submit-button_container">
+            <a class="btn waves-effect waves-light red" href="#inscribete">Regístrate
+              <i class="material-icons right">send</i>
+            </a>
+        </div>
+      </div>
+      <div class="row programas-sub_title">
+        <div class="col s12 m12">
+          <p>Centraal Academy es el único y primer programa en México liderado por un <b>Google Developer Expert</b>, 
+            este próximo <b>13 de septiembre</b> queremos invitarte a una clase demo <b>gratuita</b> sobre nuestros programas 
+            al compartir conocimiento con toda la comunidad de desarrolladores</p>
+          <p>Queremos que formes parte de la generación que impactaran al siguiente billón de usuarios. 
+            Centraal Academy está comprometido con la preparación de contenidos de calidad, al estar conscientes 
+            de que la Industria es cambiante y demanda las mejores habilidades del mercado.</p>
+          <p>Aprenderás a construir de Cero a Producción una web App, utilizando tecnologías “trends”, 
+            yendo desde las bases hasta los detalles más técnicos de cada tecnología. Nuestros talleres 
+            serán simultáneos y podrás conocer a nuestros mentores</p>
+          <div class="row">
+            <h4>Agenda</h4>
+            <table id="demoDay_table">
+                        <tr>
+                            <td>18:00 a 18:30</td>
+                            <td>Registro</td>
+                        </tr>
+                        <tr>
+                            <td class="tdTime">18:30 a 18:45</td>
+                            <td class="tdDescription">Bienvenida con <b>Diego De Granda - Google Developer Expert & Director Académico</b></td>
+                        </tr>
+                        <tr>
+                            <td class="tdTime">19:00 a 19:30</td>
+                            <td class="tdDescription"><b>Talleres Básicos</b></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>
+                            <p><b>Taller 1 : Construyendo una web desde 0 a producción.</b>
+                            </p>
+                            Instructor : <b>Joel Gómez</b>
+                            <p><b>Descripción:</b> Entenderemos como funciona internet y las tecnologías que se involucran en 
+                            la construcción de una web desde el desarrollo hasta que se pone a disposición del público en internet
+                            </p>
+                            </br>
+                            <p><b>Taller 2 : Construyendo un API con Django desde 0 hasta Cloud!</b></p>
+                            Instructor : <b>Paco Ocampo</b>
+                            <p><b>Descripción:</b> Construiremos una Restful API utilizando Django, agregaremos 
+                              módulos de autenticación y un modelo de Lista de contactos construyendo endpoints 
+                              completamente CRUD
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                            <td>19:30 a 20:00</td>
+                            <td><b>Talleres Avanzados</b></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td>
+                            <p><b>Taller 1 : Progressive Web Apps y Serverless Architectures.</b>
+                            </p>
+                            Instructor : <b>Joel Gómez</b>
+                            <p><b>Descripción:</b> En este demo entraremos en el mundo de las Progressive Web Apps 
+                              (PWA), ¿Qué son?, ¿Porqué son tan importantes?, ¿Cómo desarrollarlas? Entenderemos el 
+                              concepto de serverless y porque es tan importante en el mundo de un desarrollador 
+                              front-end
+                            </p>
+                            </br>
+                            <p><b>Taller 2 : Micro servicios con Google Cloud Platform</b></p>
+                            Instructor : <b>Paco Ocampo</b>
+                            <p><b>Descripción:</b> Haremos un demo de como desplegar con una arquitectura de 
+                              microservicios básica una Aplicación para Gestión de Contactos (Backend, 
+                              Frontend, Persistencia).
+                            </p>
+                          </td>
+                        </tr>
+                        <tr>
+                            <td>20:00 a 21:00</td>
+                            <td><bold>Networking</bold></td>
+                        </tr>
+                    </tbody>
+                </table>
+          </div>  
+        </div>
+      </div>
+      
+  <section id="inscribete">
+    <div class="container">
+      <div class="row inscribete-main_title">
+        <h2>Regístrate</h2>
+      </div>
+      <div class="row">
+        <form class="col s12">
+          <div class="card">
+            <div class="row">
+              <div class="input-field col s12 m12 required-data">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="full_name" type="text" class="validate" aria-required="true">
+                <label for="full_name" data-error="Debes poner tu nombre">Nombre completo</label>
+              </div>
+              <div class="input-field col s12 m6 required-data">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate" aria-required="true">
+                <label for="email" data-error="Debes poner un correo valido">Email</label>
+              </div>
+              <div class="input-field col s12 m6 required-data">
+                <i class="material-icons prefix">phone</i>
+                <input id="telephone" type="tel" class="validate" aria-required="true">
+                <label for="telephone" data-error="Debes poner tu teléfono">Telefono</label>
+              </div>
+                <div class="row">
+                    <p class=>¿Qué clase te interesa tomar?</p>
+                </br>
+                    <i class="small material-icons prefix demoDay-padding">bookmark</i> Básico
+                    <div class="input-field col s12">
+                        <span class="col s12 m12">
+                          <input name="clase" type="radio" id="test1" value="claseFrontBasico"/>
+                          <label for="test1">Desarrollando una web desde 0 a producción</label>
+                        </span>
+                        <span class="col s12 m12">
+                            <input name="clase" type="radio" id="test3" value="claseBackBasico"/>
+                            <label for="test3">Contruyendo una Rest API desde 0</label>
+                          </span>
+                      </div>
+                </div>
+              </br>
+              <div class="row">
+                  <i class="small material-icons prefix demoDay-padding">bookmark</i> Avanzado
+                  <div class="input-field col s12">
+                      <span class="col s12 m12">
+                          <input name="clase" type="radio" id="test2" value="claseFrontAvanzado"/>
+                          <label for="test2">Progressive Web App's with Serverless Arquitectures</label>
+                        </span>
+                      <span class="col s12 m12">
+                        <input name="clase" type="radio" id="test4" value="claseBackAvanzado"/>
+                        <label for="test4">Microservicios con Google Cloud Platform</label>
+                      </span>
+                    </div>
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="input-field col s12 m12 required-data">
+                <i class="material-icons prefix">mode_edit</i>
+                <!-- <textarea id="position" class="materialize-textarea"></textarea> -->
+                <input id="position" type="text" class="validate" aria-required="true">
+                <label for="textarea1" data-error="Indícanos a que te dedicas">¿A qué te dedicas actualmente?</label>
+              </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <!-- <textarea id="community" class="materialize-textarea"></textarea> -->
+                  <input id="community" type="text">
+                  <label for="textarea1">¿A qué comunidad perteneces?</label>
+                </div>
+              </div>
+            <div class="row submit-button_container">
+              <button id="submit-button" class="btn waves-effect waves-light red" name="action">Regístrate
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section id="alert">
+    <div class="alert-container">
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <p id="name-card_user" class="card-title">Listo!</p>
+            <p>Muchas gracias por registrarte a nuestro Demo Day, te esperamos el 13 de Septiembre.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="map-container">
+    <div class="row">
+      <div class="col s12 m12">
+        <h5>Guadalajara</h5>
+        <iframe class="card" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1866.4292879527818!2d-103.39409732423772!3d20.67533190599685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae6ff6c5271d%3A0xaf8eb7eb1860a391!2sPlaza+Sania!5e0!3m2!1ses!2smx!4v1504052478141" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6">
+        <h5 class="white-text">Contacto GDL</h5>
+        <div class="ubicacion-container">
+          <i class="material-icons prefix">navigation</i>
+          <span>Av. Ignacio Luis Vallarta 3300, Vallarta Nte., 44690 Guadalajara, Jal.</span>
+        </div>
+        <div class="mail-container">
+          <a href="mailto:academy@centraal.com?subject=CentraalAcademy"><i class="material-icons prefix">email</i>academy@centraal.com</a>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <h5 class="white-text">Contacto CDMX</h5>
+        <div class="ubicacion-container">
+          <i class="material-icons prefix">navigation</i>
+          <span>Zamora 187, Condesa, 06140 Cuauhtémoc, CDMX</span>
+        </div>
+        <div class="mail-container">
+          <a href="mailto:academy@centraal.com?subject=CentraalAcademy"><i class="material-icons prefix">email</i>academy@centraal.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2017 Centraal Academy, All rights reserved
+    </div>
+  </div>
+</footer>
+
+<!-- Google Analytics -->
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105585526-1', 'auto');
+  ga('send', 'pageview');
+
+</script> -->
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <!-- Import our JavaScript -->
+  <script type="text/javascript" src="assets/js/demoday.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <script>
+    $( document ).ready(function() {
+      $(".dropdown-button").dropdown();
+    })
+
+  </script>
+</body>
+</html>

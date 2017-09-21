@@ -1,0 +1,344 @@
+header {
+  width: 100%;
+  height: 750px;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/devsforhelp.appspot.com/o/Screen%20Shot%202017-09-21%20at%2015.33.49.png?alt=media&token=a8a2c6f7-8d21-441f-a740-af00293612fa');
+  background-size: cover;
+  background-position: center;
+}
+header .header-main_container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+header .header-main_container h2 {
+  color: white;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: 100px
+}
+header .header-main_container h2 span {
+  font-size: 40px;
+  float: right;
+  margin-top: -50px;
+  margin-right: 20px;
+}
+header .header-main_container .header-main_text {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+header .header-shadow {
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: inset 0px 0px 300px 59px rgba(0,0,0,0.55);
+  -moz-box-shadow: inset 0px 0px 300px 59px rgba(0,0,0,0.55);
+  box-shadow: inset 0px 0px 300px 59px rgba(0,0,0,0.55);
+}
+nav {
+  background-color: rgba(21, 20, 20, 0.5);
+  position: absolute;
+  z-index: 10;
+}
+nav a {
+  color: #ffffff;
+}
+nav .brand-logo {
+  color: #ffffff;
+  font-size: 1.7rem;
+  margin-left: 15px;
+}
+nav ul a {
+  color: #ffffff;
+}
+nav ul a:hover {
+  background-color: rgba(216, 216, 216, 0.48);
+}
+header nav .nav-wrapper .register_button {
+  background-color: #fb7070;
+  margin-right: 30px;
+}
+header nav .nav-wrapper .side-nav .register_button_mob {
+  background-color: #fb7070;
+}
+
+#countdown {
+  background-color: rgba(21, 20, 20, 0.5);
+  color: #ffffff;
+  font-size: 1.2em;
+  position: fixed;
+  left: 0px;
+  padding: 1em;
+  top: 5em;
+  z-index: 2;
+}
+
+#countdown div{
+  display: inline-block;
+}
+
+#eventos, #programas, #inscribete {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#eventos .eventos-main_title {
+  text-align: center;
+}
+#eventos .card-content {
+  text-align: center;
+}
+#eventos .date-container {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+#eventos .register-button {
+  border: none;
+  color: white;
+  display: inline-block;
+  margin: 0 auto;
+  width: 90%;
+}
+#programas {
+  background-color: #f5f2f2;
+}
+#programas .programas-main_title {
+  text-align: center;
+}
+#programas .programas-sub_title p {
+  text-align: justify;
+}
+#programas .front-basico ul, .front-avanzado ul {
+  padding-left: 40px;
+}
+#programas .back-basico ul, .back-avanzado ul {
+  padding-left: 40px;
+}
+#programas .front-basico ul li, .front-avanzado ul li{
+  list-style-type: circle;
+}
+#programas .back-basico ul li, .back-avanzado ul li{
+  list-style-type: circle;
+}
+#programas .card .horizontal-logo {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+#programas .card .card-action {
+  text-align: center;
+}
+#equipo .equipo-main_title {
+  text-align: center;
+}
+
+#equipo .secondary-team_container .card {
+  min-height: 431px;
+  max-width: 400px;
+  margin: .5rem 0 1rem 0;
+}
+#equipo .secondary-team_container .card-pic-container {
+  text-align: center;
+}
+#equipo .secondary-team_container .card-pic-container .card-pic_decorator {
+  width: 100%;
+  height: 195px;
+  position: absolute;
+  background-color: #c1c0c0;
+}
+#equipo .secondary-team_container .card-pic-container img {
+  width: 200px;
+  padding-top: 20px;
+  border-radius: 50%;
+  position: relative;
+}
+#equipo .secondary-team_container .card-pic-container p {
+  margin: 0;
+}
+#equipo .secondary-team_container .card-pic-container span {
+  font-size: 20px;
+}
+#equipo .secondary-team_container .card-text-container p {
+  padding: 0 20px 20px;
+  text-align: justify;
+}
+#inscribete {
+  background-color: #ffffff;
+  padding-top: 1px;
+}
+#inscribete .card {
+  padding: 25px;
+}
+#inscribete .inscribete-main_title {
+  text-align: center;
+}
+#inscribete .input-field p {
+  color: #9e9e9e;
+}
+#inscribete .radio-section_container {
+  margin-bottom: 80px;
+}
+#inscribete .submit-button_container {
+  text-align: center;
+}
+#inscribete .required-data label:after {
+  top: 35px;
+}
+#alert {
+  padding: 50px;
+  display: none;
+}
+#alert .alert-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#map-container {
+  background-color: #f5f2f2;
+}
+#map-container .row {
+  margin-bottom: 0px;
+}
+#map-container iframe {
+  width: 100%!important;
+}
+.page-footer {
+      background-color: #292828;
+}
+.page-footer .footer-copyright {
+  background-color: rgba(0, 0, 0, 0.27);
+}
+.page-footer .ubicacion-container {
+  color: white;
+}
+.page-footer .ubicacion-container i {
+  display: inline-flex;
+  vertical-align: top;
+  margin-right: 10px;
+}
+.page-footer .mail-container {
+  color: white;
+  margin-top: 20px;
+}
+.page-footer .mail-container i {
+  display: inline-flex;
+  vertical-align: top;
+  margin-right: 10px;
+}
+.footer-copyright .container {
+  text-align: center;
+}
+
+/*
+  Página de preguntas frecuentes
+*/
+#faq-header {
+  height: 64px;
+}
+#faq-header .header-main_container {
+  display: none;
+}
+#faq {
+  padding: 20px;
+}
+#faq article.card {
+  padding: 20px;
+}
+
+
+#sidenav-overlay {
+  z-index: 0;
+}
+
+.program-details {
+  margin-top: 1em;
+}
+
+.program-details p{
+  display: inline-block;
+  padding: 0.5em;
+}
+.program-details .becas-text p {
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.program-logo {
+  display: block;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+  padding: 1em;
+  width: 11em !important;
+}
+
+.program-title {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  #equipo .secondary-team_container .card {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 601px) {
+  #programas .card .horizontal-logo {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: block;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header .header-main_container h2 {
+    font-size: 70px;
+  }
+  header .header-main_container h2 span {
+    margin-top: -30px;
+  }
+  #eventos .date-container {
+    width: 100%;
+  }
+
+}
+
+/*
+Demo Day CSS
+*/
+#demoDay-header {
+  height: 64px;
+}
+#demoDay-header .header-main_container {
+  display: none;
+}
+.demoDay-padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#demoDay_table .tdTime {
+  width: 20%;
+}
+#demoDay_table .tdDescription {
+  width: 80%;
+}
+
+.dropdown-content .drop-li > a, .dropdown-content .drop-li > span {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fb7070;
+  display: block;
+  line-height: 22px;
+  padding: 21px 16px;
+}
+
+@media (max-width: 600px) {
+  #demoDay_table .tdTime {
+    width: 35%;
+  }
+  #demoDay_table .tdDescription {
+    width: 65%;
+  }
+}

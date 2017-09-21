@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Devs for Help</title>
+  <link rel="icon" href="assets/img/favicon_centraal.png" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<header>
+    <ul id="eventos-dropdown" class="dropdown-content">
+        <li class="drop-li"><a href="demoday.html">Demo Day</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo">Devs for Help</a>
+          <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html#programas">Programas</a></li>
+            <li><a href="#!" data-activates="eventos-dropdown" class="dropdown-button">Eventos<i class="material-icons right">arrow_drop_down</i></a></li> 
+            <li><a href="equipo.html">Equipo</a></li>
+            <li><a href="preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+            <li><a class="register_button" href="index.html#inscribete">Inscríbete!</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a id="programs_mobile" href="index.html#programas">Programas</a></li>
+            <li><a href="demoday.html">Demo Day</a></li>
+            <li><a href="equipo.html">Equipos</a></li>
+            <li><a href="#espacio">Espacio</a></li>
+            <li><a href="preguntasFrecuentes.html">Preguntas Frecuentes</a></li>
+            <li><a class="register_button_mob" href="index.html#inscribete">Inscríbete!</a></li>
+          </ul> -->
+        </div>
+      </nav>
+
+  <section class="header-main_container header-shadow valign-wrapper">
+    <div class="header-main_text">
+        <h4 class="center-align">La ayuda se seguirá necesitando</h4>
+        <a class="card-panel red center-align register-button" href="https://www.eventbrite.es/e/entradas-devs-for-help-gdl-38130002865"> 30 de septiembre asiste y ayuda</a>
+    </div>
+  </section>
+</header>
+<main>
+  <section id="eventos">
+    <div class="container">
+      <h4 class="center-align">Este 30 de septiembre varias comunidades de developers nos uniremos para crear talleres/eventos orientados para developers a cambio de aportaciones para ayuda en los sismos de las últimas semanas.</h4>
+      <div class="date-container">
+        <div class="col s12 m5 center-align">
+          <a class="card-panel red center-align register-button" href="https://www.eventbrite.es/e/entradas-devs-for-help-gdl-38130002865">Asiste y ayuda</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="programas">
+    <div class="container">
+      <div class="row programas-main_title">
+        <h2>Nuestra misión</h2>
+      </div>
+      <div class="row programas-sub_title">
+        <div class="col s12 m12">
+          <!-- <h4>Programas Básicos</h4> -->
+          <p>Estamos creando este evento para poder recaudar fondos y apoyar a los damnificados y personas afectadas por los terremotos ocurridos en las últimas semanas en México.</p>
+              <p>La idea es dejar esté movimiento como una plataforma de respuesta en apoyo a cualquier tipo de desastre en el cual como developers y comunidad podamos aportar.</p>
+              <p>Las donaciones serán entregadas a la Cruz Roja Méxica y a la Brigada de Rescate Topos así como a centros de acopio de cada comunidad.</p>
+        </div>
+      </div>
+    <!--  <div class="row card">
+        <div class="col s12 m3 horizontal-logo">
+          <img src="https://firebasestorage.googleapis.com/v0/b/centraal-academy.appspot.com/o/Academy_FE_.png?alt=media&token=98e54b06-747a-4031-ba82-6592658273c7" class="program-logo" />
+        </div>
+        <div class="col s12 m9">
+          <div class="card-content">
+            <span class="program-title">Front-end</span>
+            <p>
+              En este programa te enseñaremos como funciona internet, lógica de programación y como crear sitios web. Al finalizar entenderás a como funcionan tecnologias como : HTML, CSS y Javascript con las cuales podrás construir lo que desees en la web.
+            </p>
+            <div class="program-details">
+              <p><strong>Duración:</strong> 3 meses</p>
+              <p><strong>Inversión:</strong> $22,500.00 M.N.</p>
+              <div class="becas-text">
+                <p><strong>Contamos con becas</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-action">
+            <a href="#inscribete" class="waves-effect waves-light btn red">Registrate<i class="material-icons left">send</i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row card">
+        <div class="col s12 m3 horizontal-logo">
+          <img src="https://firebasestorage.googleapis.com/v0/b/centraal-academy.appspot.com/o/Academy_BE_.png?alt=media&token=71bec44b-2d19-43e8-8d80-c5f1b4df9c1b" class="program-logo" />
+        </div>
+        <div class="col s12 m9">
+          <div class="card-content">
+            <span class="program-title">Back-end</span>
+            <ul>
+              <li>Git</li>
+              <li>Bases de datos relacionales y no relacionales</li>
+              <li>Entender cómo se comunica una aplicación con un servidor o backend</li>
+              <li>Desarrollar un backend utilizando tecnología ORM y Python</li>
+              <li>Desarrollar un API para consumo de datos desde diversas plataformas</li>
+              <li>Cómo funciona un servidor web</li>
+              <li>Cómo funciona la nube</li>
+              <li>Despliegue de aplicación en diferentes plataformas.</li>
+            </ul>
+            <div class="program-details">
+              <p><strong>Duración:</strong> 3 meses</p>
+              <p><strong>Inversión:</strong> $22,500.00 M.N.</p>
+              <div class="becas-text">
+                <p><strong>Contamos con becas</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-action">
+            <a href="#inscribete" class="waves-effect waves-light btn red">Registrate<i class="material-icons left">send</i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row programas-sub_title">
+        <div class="col s12 m12 horizontal-logo">
+          <h4>Programas Avanzados</h4>
+          <p>¿Eres un desarrollador front-end o back-end con experiencia y quieres dar el siguiente paso en tu carrera profesional? Desarrolla aplicaciones robustas y escalables aplicando métodos, prácticas y arquitecturas vigentes como son microservicios. A lo largo del programa utilizarás lenguajes y frameworks adecuados para trabajar en tiempo real (Django, Go), así como bases de datos relacionales y no relacionales. Nos enfocaremos en aumentar skills técnicos así de trabajo colaborativo y metodologías para el desarrollo de software.</p>
+        </div>
+      </div>
+      <div class="row card">
+        <div class="col s12 m3 horizontal-logo">
+          <img src="https://firebasestorage.googleapis.com/v0/b/centraal-academy.appspot.com/o/Academy_FE_1.png?alt=media&token=c804de7f-0de8-4b89-9994-bfa4d1e53cdd" class="program-logo" />
+        </div>
+        <div class="col s12 m9">
+          <div class="card-content">
+            <span class="program-title">Front-end avanzado</span>
+            <ul>
+              <li>Javascript (ES6, desarrollo de módulos,  asíncronia, patrones de diseño, testing)</li>
+              <li>Herramientas Web (task runners, bundlers, generators, etc)</li>
+              <li>Desarrollo web usando componentes (polymer, react, angular 4)</li>
+              <li>Testing de aplicaciones front-end</li>
+              <li>Accesibilidad Web</li>
+              <li>Progressive Web Apps</li>
+            </ul>
+            <p>Todo esto y más con el objetivo de convertirte en un arquitecto front-end.</p>
+            <div class="program-details">
+              <p><strong>Duración:</strong> 3 meses</p>
+              <p><strong>Inversión:</strong> $22,500.00 M.N.</p>
+              <div class="becas-text">
+                <p><strong>Contamos con becas</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-action">
+            <a href="#inscribete" class="waves-effect waves-light btn red">Registrate<i class="material-icons left">send</i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row card">
+        <div class="col s12 m3 horizontal-logo">
+          <img src="https://firebasestorage.googleapis.com/v0/b/centraal-academy.appspot.com/o/Academy_BE_1.png?alt=media&token=a94a885d-6bf1-4e79-bfe3-b353b8c46546" class="program-logo" />
+        </div>
+        <div class="col s12 m9">
+          <div class="card-content">
+            <span class="program-title">Back-end avanzado</span>
+            <ul>
+              <li>Desarrollo de aplicaciones con Go</li>
+              <li>Unit Test</li>
+              <li>Desarrollo de API con Grapql</li>
+              <li>Optimización de aplicaciones</li>
+              <li>Microservicios</li>
+              <li>Google Cloud</li>
+              <li>Amazon WS</li>
+              <li>Continuous Integration y Continuous Delivery</li>
+            </ul>
+            <div class="program-details">
+              <p><strong>Duración:</strong> 3 meses</p>
+              <p><strong>Inversión:</strong> $22,500.00 M.N.</p>
+              <div class="becas-text">
+                <p><strong>Contamos con becas</strong></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-action">
+            <a href="#inscribete" class="waves-effect waves-light btn red">Registrate<i class="material-icons left">send</i></a>
+          </div>
+        </div>
+      </div>-->
+    </div>
+  </section>
+  <!-- <section id="espacios">
+
+  </section> -->
+  <!--<section id="inscribete">
+    <div class="container">
+      <div class="row inscribete-main_title">
+        <h2>Inscríbete!</h2>
+      </div>
+      <div class="row">
+        <form class="col s12">
+          <div class="card">
+            <div class="row">
+              <div class="input-field col s12 m12 required-data">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="full_name" type="text" class="validate" aria-required="true">
+                <label for="full_name" data-error="Debes poner tu nombre">Nombre completo</label>
+              </div>
+              <div class="input-field col s12 m6 required-data">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate" aria-required="true">
+                <label for="email" data-error="Debes poner un correo valido">Email</label>
+              </div>
+              <div class="input-field col s12 m6 required-data">
+                <i class="material-icons prefix">phone</i>
+                <input id="telephone" type="tel" class="validate" aria-required="true">
+                <label for="telephone" data-error="Debes poner tu teléfono">Telefono</label>
+              </div>
+              <div class="input-field col s12">
+                <div>
+                  <p>¿Qué programa te interesa tomar?</p>
+                </div>
+                <span class="col s6 m3">
+                  <input name="program" type="radio" id="test1" value="frontBasico"/>
+                  <label for="test1">Front-end Básico</label>
+                </span>
+                <span class="col s6 m3">
+                  <input name="program" type="radio" id="test2" value="frontAvanzado"/>
+                  <label for="test2">Front-end Avanzado</label>
+                </span>
+                <span class="col s6 m3">
+                  <input name="program" type="radio" id="test3" value="backBasico"/>
+                  <label for="test3">Back-end Básico</label>
+                </span>
+                <span class="col s6 m3">
+                  <input name="program" type="radio" id="test4" value="backAvanzado"/>
+                  <label for="test4">Back-end Avanzado</label>
+                </span>
+              </div>
+              <div class="input-field col s12">
+                <div>
+                  <p>¿Cuál de nuestras sedes te interesa?</p>
+                </div>
+                <span class="col s6 m3">
+                  <input name="headquarter" type="radio" id="hqcdmx" value="cdmx"/>
+                  <label for="hqcdmx">Ciudad de México</label>
+                </span>
+                <span class="col s6 m3">
+                  <input name="headquarter" type="radio" id="hqgdl" value="guadalajara"/>
+                  <label for="hqgdl">Guadalajara</label>
+                </span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="comment" class="materialize-textarea"></textarea>
+                <label for="textarea1">¿Porqué te interesa entrar a Centraal Academy?</label>
+              </div>
+            </div>
+            <div class="row submit-button_container">
+              <button id="submit-button" class="btn waves-effect waves-light red" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>-->
+  <!--<section id="alert">
+    <div class="alert-container">
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <p id="name-card_user" class="card-title">Listo!</p>
+            <p>Muchas gracias por inscribirte a Centraal Academy, te contactaremos en los siguientes días para terminar el registro.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>-->
+  <section id="map-container">
+    <div class="row">
+      <div class="col s12 m12">
+        <h5>Guadalajara</h5>
+        <iframe class="card" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1866.4292879527818!2d-103.39409732423772!3d20.67533190599685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae6ff6c5271d%3A0xaf8eb7eb1860a391!2sPlaza+Sania!5e0!3m2!1ses!2smx!4v1504052478141" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <!--<div class="col s12 m6">
+        <h5>CDMX</h5>
+        <iframe class="card" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.0074322782507!2d-99.18284098542735!3d19.412084846367286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff5c96fc9085%3A0x2f6aec40a6a0a8b0!2sCentraal!5e0!3m2!1ses!2smx!4v1504064327756" width="800" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>-->
+    </div>
+  </section>
+</main>
+<!-- <div id="countdown">
+  <span>Comenzamos en </span>
+  <div>
+    <span class="countdown-days">--</span>
+    <span>Dias</span>
+  </div>
+  <div>
+    <span class="countdown-hours">--</span>
+    <span>:</span>
+  </div>
+  <div>
+    <span class="countdown-minutes">--</span>
+    <span>:</span>
+  </div>
+  <div>
+    <span class="countdown-seconds">--</span>
+  </div>
+</div> -->
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m6">
+        <h5 class="white-text">Evento en</h5>
+        <div class="ubicacion-container">
+          <i class="material-icons prefix">navigation</i>
+          <span>Av. Ignacio Luis Vallarta 3300, Vallarta Nte., 44690 Guadalajara, Jal.</span>
+        </div>
+        <!-- <div>
+          <i class="material-icons prefix">phone</i>
+          <span></span>
+        </div> -->
+        <div class="mail-container">
+          <a href="mailto:paco.ocampor@gmail.com"><i class="material-icons prefix">email</i>paco.ocampor@gmail.com</a>
+        </div>
+      </div>
+      <!--<div class="col s12 m6">
+        <h5 class="white-text">Contacto CDMX</h5>
+        <div class="ubicacion-container">
+          <i class="material-icons prefix">navigation</i>
+          <span>Zamora 187, Condesa, 06140 Cuauhtémoc, CDMX</span>
+        </div>
+        <!-- <div>
+          <i class="material-icons prefix">phone</i>
+          <span></span>
+        </div>
+        <div class="mail-container">
+          <a href="mailto:academy@centraal.com?subject=CentraalAcademy"><i class="material-icons prefix">email</i>academy@centraal.com</a>
+        </div>
+      </div>-->
+      <!-- <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © 2017 Devs for help, All rights reserved
+    <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+    </div>
+  </div>
+</footer>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105585526-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <!-- Import our JavaScript -->
+  <script type="text/javascript" src="assets/js/firebase.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
